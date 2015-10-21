@@ -1,0 +1,216 @@
+/* Add top padding for navbar-top-fixed */
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+  }
+
+/* Remove top padding when top navbar goes static in narrow viewports */
+@media (max-width: 979px) {
+  body {
+    padding-top: 30px;
+  }
+}
+
+/* General */
+* {
+  font-size: 16px;
+}
+h1,h2,h3 {
+  font-weight: normal;
+}
+.bold {
+  font-weight: bold;
+}
+.whiteSpace50 {
+  min-height: 50px;
+}
+.whiteSpace100 {
+  min-height: 100px;
+}
+/* for Desktop only */
+@media screen and (min-width: 768px) {
+  .nopadding-left {
+ margin-left: -15px;
+ }
+}
+.leftMargin20 {
+  margin-left: 20px;
+}
+.btn-black {
+  background-color: #222;
+  color: #fff;
+}
+/* for Mobile only */
+@media (max-width: 979px) {
+
+}
+
+
+/* Navigation Menu */
+.navbar {
+    margin-bottom: 0px;
+}
+nav.navbar.navbar-fixed-top div.navbar-inner  {
+  background-color: black;
+  padding-left: 20px;
+}
+.navbar .nav > li > a {
+    color: lightgrey;
+}
+/* Set Hamburger to white */
+div.navbar-header span.icon-bar {
+    background-color: white;
+    border-color: white;
+}
+/* Set Brand to white */
+a.navbar-brand {
+  color: white;
+}
+
+/* Sidebar Menu */
+#sidenav a {
+  color: grey;
+  display: block;
+  font-weight: bold;
+  text-decoration: none;
+  padding-bottom: 4px;
+  margin-left: -40px;
+}
+#sidenav a:hover {
+  color: black;
+  background-color: inherit;
+}
+#sidenav ul {
+  list-style: none;
+}
+#sidenav h3 {
+  font-weight: normal;
+}
+
+.workunit-title {
+  background-color: lightgray;
+  border-bottom: 2px dotted black;
+  margin-top: -30px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  padding-left: 20px;
+}
+.workunit-pageheader {
+  margin-top: -30px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  padding-top: 40px;
+}
+
+/* Workunit Module Overview */
+.workunit-listing {
+  border-top: 2px dotted black;
+  padding-bottom: 12px;
+  padding-top: 12px;
+  padding-left: 20px;
+}
+h2.listing-heading {
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+
+a.listing-link {
+  text-decoration: none;
+}
+.workunit-listing h3 {
+  color: black;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.workunit-listing p {
+  font-size: 16px;
+  color: black;
+}
+
+/* Workunit Module Overview: Background Colors */
+.orange, .orange-link {
+  background-color: #f99f1c;
+}
+:hover.orange-link {
+  background-color: #fbb049;
+}
+.blue, .blue-link {
+  background-color: #8dd8f8;
+}
+:hover.blue-link {
+  background-color: #8df8f4;
+}
+.green, .green-link {
+  background-color: #cad22b;
+}
+:hover.green-link {
+  background-color: #d2bd2c;
+}
+
+/* Workunit Item Detail Page */
+.workunit-item-bullets {
+  font-weight: bold;
+}
+.workunit-item-bullets li {
+  margin-bottom: 0.5em;
+}
+
+/* Workunit Price */
+.workunit-price {
+  padding-bottom: 12px;
+  padding-left: 20px;
+  padding-top: 12px;
+}
+a.workunit-price {
+  text-decoration: none;
+}
+.workunit-price h3 {
+  color: black;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.workunit-price p {
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+}
+
+
+/* Forms */
+label {
+  font-weight: normal;
+}
+.form-horizontal .control-label {
+  text-align: left;
+}
+.formcolumn h3 {
+  border-bottom: 2px dotted black;
+  padding-bottom: 8px;
+  margin-left: -12px;
+}
+
+
+.checkbox label {
+  color: grey;
+}
+
+.checkbox input[type="checkbox"] {
+  margin-left: 0px;
+  position: unset;
+}
+
+
+input[type="checkbox"]:checked + label{
+  font-weight: bold; }
+
+.chkbx-orange input[type="checkbox"]:checked + label {
+  color: orange;
+  }
+  .chkbx-green input[type="checkbox"]:checked + label {
+    color: green;
+    }
+    .chkbx-blue input[type="checkbox"]:checked + label {
+      color: blue;
+      }
